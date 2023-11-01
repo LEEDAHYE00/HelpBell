@@ -85,7 +85,7 @@
             android:id="@+id/etEtc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="간단한 소개 입력" />
+            android:hint="간단한 소개" />
 
     </LinearLayout>
 

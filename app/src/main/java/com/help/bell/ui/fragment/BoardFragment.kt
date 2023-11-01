@@ -57,7 +57,7 @@ class BoardFragment : Fragment() {
 
         val alertDialogBuilder = AlertDialog.Builder(requireContext())
             .setView(dialogView.root)
-            .setTitle("해시태그 추가")
+            .setTitle("게시글 추가")
             .setPositiveButton("추가") { dialog, which ->
                 val name = dialogView.etName.text.toString()
                 val boards = dialogView.etEtc.text.toString()
